@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="keepaway"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aref/Documents/2d/keepaway/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aref/Documents/2d/keepaway/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keepaway">
+				<Option output="/home/aref/Documents/2d/keepaway/cmake-build-debug/keepaway" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aref/Documents/2d/keepaway/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aref/Documents/2d/keepaway/src"/>
+					<Add directory="/home/aref/Documents/2d/keepaway/src/chain_action"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 keepaway"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="keepaway/fast">
+				<Option output="/home/aref/Documents/2d/keepaway/cmake-build-debug/keepaway" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aref/Documents/2d/keepaway/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aref/Documents/2d/keepaway/src"/>
+					<Add directory="/home/aref/Documents/2d/keepaway/src/chain_action"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 keepaway/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aref/Documents/2d/keepaway/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/aref/Documents/2d/keepaway/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_basic_move.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_basic_move.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_basic_offensive_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_basic_offensive_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_basic_tackle.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_basic_tackle.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_custom_before_kick_off.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_custom_before_kick_off.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_go_to_static_ball.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_go_to_static_ball.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_goalie_basic_move.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_goalie_basic_move.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_goalie_chase_ball.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_goalie_chase_ball.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_goalie_free_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_goalie_free_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_penalty_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_penalty_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_prepare_set_play_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_prepare_set_play_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_free_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_free_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_goal_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_goal_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_indirect_free_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_indirect_free_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_kick_in.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_kick_in.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_kick_off.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_set_play_kick_off.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_their_goal_kick_move.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/bhv_their_goal_kick_move.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_action_chain_length_filter.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_cross.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_cross.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_direct_pass.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_direct_pass.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_self_pass.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_self_pass.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_shoot.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_shoot.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_short_dribble.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_short_dribble.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_simple_dribble.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_simple_dribble.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_strict_check_pass.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/actgen_strict_check_pass.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/action_chain_graph.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/action_chain_graph.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/action_chain_holder.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/action_chain_holder.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/action_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/action_state_pair.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_chain_action.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_chain_action.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_normal_dribble.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_normal_dribble.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_pass_kick_find_receiver.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_pass_kick_find_receiver.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_strict_check_shoot.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/bhv_strict_check_shoot.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/body_force_shoot.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/body_force_shoot.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/clear_ball.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/clear_ball.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/clear_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/clear_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/cooperative_action.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/cooperative_action.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/cross_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/cross_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/dribble.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/dribble.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/field_analyzer.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/field_analyzer.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/field_evaluator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/hold_ball.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/hold_ball.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/neck_turn_to_receiver.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/neck_turn_to_receiver.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/pass.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/pass.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/pass_checker.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/predict_ball_object.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/predict_player_object.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/predict_state.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/predict_state.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/self_pass_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/self_pass_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/shoot.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/shoot.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/shoot_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/shoot_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/short_dribble_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/short_dribble_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/simple_pass_checker.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/simple_pass_checker.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/strict_check_pass_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/strict_check_pass_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/tackle_generator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/chain_action/tackle_generator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/communication.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/intention_receive.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/intention_receive.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/intention_wait_after_set_play_kick.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/intention_wait_after_set_play_kick.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/keepaway_communication.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/keepaway_communication.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/main_coach.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/main_player.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/main_trainer.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/neck_default_intercept_neck.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/neck_default_intercept_neck.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/neck_goalie_turn_neck.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/neck_goalie_turn_neck.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/neck_offensive_intercept_neck.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/neck_offensive_intercept_neck.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_center_back.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_center_back.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_center_forward.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_center_forward.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_defensive_half.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_defensive_half.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_goalie.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_goalie.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_keepaway_keeper.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_keepaway_keeper.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_keepaway_taker.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_keepaway_taker.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_offensive_half.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_offensive_half.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_sample.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_sample.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_side_back.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_side_back.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_side_forward.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_side_forward.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_side_half.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/role_side_half.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_coach.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_coach.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_communication.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_communication.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_field_evaluator.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_field_evaluator.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_player.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_player.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_trainer.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/sample_trainer.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/soccer_role.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/soccer_role.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/strategy.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/strategy.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/view_tactical.cpp">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/src/view_tactical.h">
+			<Option target="keepaway"/>
+		</Unit>
+		<Unit filename="/home/aref/Documents/2d/keepaway/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
